@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Rubik', 'Roboto', sans-serif;
-  font-size: 1rem;
-  background-color: #fff;
-  line-height: 2;
+    font-family: 'Rubik', 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+    line-height: 2;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7rem 2rem;
-  z-index: 1;
-  width: 100%;
-  margin-bottom: 1rem;
-  background-color: #f55
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #f55
 }
 
 .navbar ul {
-  display: flex;
+    display: flex;
 }
 
-.navbar a {
-  /* add styling for navbar links */
+.navbar li {
+    padding: 0.5rem;
 }
