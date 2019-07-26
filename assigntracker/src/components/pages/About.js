@@ -6,8 +6,9 @@ const About = () => {
             <h1>About the App</h1>
             <p>
                 Assignment Tracker is an app for teachers to keep track of
-                assignments. Grade submissions, leave notes, remind students of
-                assignments from your dashboard.
+                student grade and assignments. Create and assignments, grade
+                submissions, leave notes, and send student reminders from your
+                dashboard.
             </p>
         </Fragment>
     );
