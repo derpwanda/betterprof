@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navigation from "./components/layout/Navigation";
+import MainView from "./components/layout/Main";
 import About from "./components/pages/About";
 import "./App.css";
 
@@ -13,6 +14,7 @@ class App extends Component {
                     <div>
                         <Route exact path='/about' component={About} />
                     </div>
+                    <MainView />
                 </div>
             </Router>
         );
