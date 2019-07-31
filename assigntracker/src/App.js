@@ -13,8 +13,8 @@ class App extends Component {
                     <Navigation title='Better Professor' />
                     <div>
                         <Route exact path='/about' component={About} />
+                        <Route exact path='/' component={MainView} />
                     </div>
-                    <MainView />
                 </div>
             </Router>
         );

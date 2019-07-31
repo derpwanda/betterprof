@@ -1,17 +1,32 @@
-import React, { Fragment } from "react";
+import React, { Component } from 'react'
 
-const MainView = () => {
-    return (
-        <Fragment>
-            <h1>MainView</h1>
-            <p>
-                Assignment Tracker is an app for teachers to keep track of
-                student grade and assignments. Create and assignments, grade
-                submissions, leave notes, and send student reminders from your
-                dashboard.
-            </p>
-        </Fragment>
-    );
-};
+class MainView extends Component {
+    constructor(props) {
+        super(props)
 
-export default MainView;
+        this.state = {
+            studentname: ''
+        }
+    }
+
+    handleStudentnameChange = (event) => {
+        this.setState({
+            studentname: event.target.value
+        })
+    }
+
+    render() {
+        return (
+            <form>
+                <div>
+                    <label>Student Name: </label>
+                    <input type='text' 
+                        value={this.state.studentname} 
+                        onChange={this.handleStudentnameChange} />
+                </div>
+            </form>
+        )
+    }
+}
+
+export default MainView
