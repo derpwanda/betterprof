@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navigation from "./components/layout/Navigation";
-import MainView from "./components/layout/Main";
+import MainView from "./components/pages/Main";
 import About from "./components/pages/About";
 import "./App.css";
 
