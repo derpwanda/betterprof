@@ -1,32 +1,34 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class MainView extends Component {
     constructor(props) {
-        super(props)
+        super(props);
 
         this.state = {
-            studentname: ''
-        }
+            studentname: ""
+        };
     }
 
-    handleStudentnameChange = (event) => {
+    handleStudentnameChange = event => {
         this.setState({
             studentname: event.target.value
-        })
-    }
+        });
+    };
 
     render() {
         return (
-            <form>
+            <form className='mainview'>
                 <div>
                     <label>Student Name: </label>
-                    <input type='text' 
-                        value={this.state.studentname} 
-                        onChange={this.handleStudentnameChange} />
+                    <input
+                        type='text'
+                        value={this.state.studentname}
+                        onChange={this.handleStudentnameChange}
+                    />
                 </div>
             </form>
-        )
+        );
     }
 }
 
-export default MainView
+export default MainView;

@@ -43,3 +43,15 @@ ul {
 .navbar a {
     /* add link styling laters */
 }
+
+.mainview {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0.7rem 2rem;
+    margin-left: 15%;
+    /* z-index: 1; */
+    width: 70%;
+    /* margin-bottom: 1rem; */
+    border: #f55 dashed;
+}
