@@ -18,7 +18,7 @@ class MainView extends Component {
     render() {
         return (
             <form className='mainview'>
-                <div>
+                <div className='mv_form'>
                     <label>Student Name: </label>
                     <input
                         type='text'
