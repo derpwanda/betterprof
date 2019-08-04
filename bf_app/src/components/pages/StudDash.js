@@ -19,6 +19,7 @@ class StudDash extends Component {
         return (
             <form className='mainview'>
                 <div className='mv_form'>
+                    <h1>Student Dash</h1>
                     <label>Student Name: </label>
                     <input
                         type='text'
