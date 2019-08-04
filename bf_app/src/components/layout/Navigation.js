@@ -9,7 +9,16 @@ const Navigation = ({ title }) => {
 
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/'>ProfDash</Link>
+                </li>
+                <li>
+                    <Link to='/ProfView'>ProfView</Link>
+                </li>
+                <li>
+                    <Link to='/StudDash'>StuDash</Link>
+                </li>
+                <li>
+                    <Link to='/StudView'>StuView</Link>
                 </li>
                 <li>
                     <Link to='/about'>About</Link>
