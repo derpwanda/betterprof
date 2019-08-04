@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class MainView extends Component {
+class ProfView extends Component {
     constructor(props) {
         super(props);
 
@@ -31,4 +31,4 @@ class MainView extends Component {
     }
 }
 
-export default MainView;
+export default ProfView;
