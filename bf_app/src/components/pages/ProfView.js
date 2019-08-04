@@ -19,12 +19,7 @@ class ProfView extends Component {
         return (
             <form className='mainview'>
                 <div className='mv_form'>
-                    <label>Student Name: </label>
-                    <input
-                        type='text'
-                        value={this.state.studentname}
-                        onChange={this.handleStudentnameChange}
-                    />
+                    <h1>Prof View</h1>
                 </div>
             </form>
         );
