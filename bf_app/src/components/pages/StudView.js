@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class MainView extends Component {
+class StudDash extends Component {
     constructor(props) {
         super(props);
 
@@ -19,16 +19,11 @@ class MainView extends Component {
         return (
             <form className='mainview'>
                 <div className='mv_form'>
-                    <label>Student Name: </label>
-                    <input
-                        type='text'
-                        value={this.state.studentname}
-                        onChange={this.handleStudentnameChange}
-                    />
+                    <h1>STUDENT VIEW</h1>
                 </div>
             </form>
         );
     }
 }
 
-export default MainView;
+export default StudDash;
